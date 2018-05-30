@@ -18,7 +18,7 @@ namespace Statler_and_Waldorf_Demo.Controllers
 
         public IActionResult Welcome(string name, int numTimes = 1)
         {
-            ViewData["Message"] = "Hellol " + name;
+            ViewData["Message"] = "Hello " + name;
             ViewData["Mult"] = numTimes;
 
             return View();
